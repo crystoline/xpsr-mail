@@ -3,6 +3,7 @@
   "description": "Email for XPSR applications on Symfony Mailer: a DSN-configured transport, templates through the view layer, queued sending, and test transports",
   "type": "library",
   "license": "MIT",
+  "homepage": "https://xpsr.crysto.name.ng",
   "authors": [
     {
       "name": "Adekunle",
@@ -11,7 +12,7 @@
   ],
   "require": {
     "php": "^8.4",
-    "crystoline/xpsr-framework": "^0.3@dev",
+    "crystoline/xpsr-framework": "^0.4@dev",
     "psr/container": "^2.0",
     "psr/log": "^3.0",
     "symfony/console": "^7.4",
@@ -19,8 +20,8 @@
     "symfony/mime": "^7.4 || ^8.0"
   },
   "require-dev": {
-    "crystoline/xpsr-database": "^0.3@dev",
-    "crystoline/xpsr-queue": "^0.3@dev",
+    "crystoline/xpsr-database": "^0.4@dev",
+    "crystoline/xpsr-queue": "^0.4@dev",
     "nyholm/psr7": "^1.8.2",
     "phpunit/phpunit": "^12.5",
     "twig/twig": "^3.4"
@@ -41,7 +42,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "0.3.x-dev"
+      "dev-master": "0.4.x-dev"
     }
   }
 }
